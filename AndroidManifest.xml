@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.iwalk.locksmither" platformBuildVersionCode="1" platformBuildVersionName="1.0.0">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application android:data="look for us on github.com" android:debuggable="true" android:icon="@mipmap/ic_launcher" android:label="LockSmither" android:name="io.flutter.app.FlutterApplication">
+        <activity android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|orientation|screenLayout|screenSize" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name="com.iwalk.locksmither.MainActivity" android:theme="@style/LaunchTheme" android:windowSoftInputMode="adjustResize">
+            <meta-data android:name="io.flutter.app.android.SplashScreenUntilFirstFrame" android:value="true"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
